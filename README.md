@@ -11,13 +11,13 @@ $bb=12;
 
 $cc=30;
 
-echo "laturile triunghiului <br> a=$aa, b=$bb, c=$cc <br>";
+echo "laturile triunghiului <br> a=$aa, b=$bb, c=$cc";
 
 //Calculam perimetrul triunghiului
 
 $per2 = $aa+$bb+$cc;
 
-echo "Perimetrul triunghiului = $per2 <br>";
+echo "Perimetrul triunghiului = $per2 ";
 
 //Calculam semi-perimetru
 
@@ -27,7 +27,7 @@ $semiper2 = $per2/2;
 
 $a2 = sqrt($semiper2*($semiper2-$aa)*($semiper2-$bb)*($semiper2-$cc));
 
-echo "Aria este =". round($a).  "<br>";
+echo "Aria este =". round($a);
 
 echo "<h3> Exersaiz 7 (c) Albot Igor </h3>";
 
@@ -35,11 +35,11 @@ echo "<h3> Exersaiz 7 (c) Albot Igor </h3>";
 
 $n7=127;
 
-echo "Valoarea initiala= $n7 <br>";
+echo "Valoarea initiala= $n7";
 
 //Afisam ultima cifra anr. 127 
 
-echo "Rezultatul=".$n7%10 ."<br>";
+echo "Rezultatul=".$n7%10 ;
 
 echo "<h3> Exersaiz 8 (c) Albot Igor </h3>";
 
@@ -63,7 +63,7 @@ for($i=-1;$i>$n8;$i--){
 
         echo $i;
 
-        echo "<br>";
+
 
     }
 
@@ -72,6 +72,6 @@ for($i=-1;$i>$n8;$i--){
 
 $m=$s8/$k8; 
 
-echo "Media=" .round($m) . "<br>";
+echo "Media=" .round($m);
 
 ?>
